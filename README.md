@@ -7,3 +7,4 @@ Addition of a halo to boats and lawnmower.
 Extend the collision to the fire trail behind the lawnmower.
 Get rid of the gap in the second and third roadways.
 Have the player move with the moving logs.
+Addition of log edge to waterway.
