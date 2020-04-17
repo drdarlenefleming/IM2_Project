@@ -9,3 +9,5 @@ Get rid of the gap in the second and third roadways.
 Have the player move with the moving logs.
 Addition of log edge to waterway.
 Re-enable the cloudy edges.
+
+Add two directories external to project to store Art and Sound assets.
