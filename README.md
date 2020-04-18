@@ -11,3 +11,6 @@ Addition of log edge to waterway.
 Re-enable the cloudy edges.
 
 Add two directories external to project to store Art and Sound assets.
+Update to car game objects with addition of horn sounds when the player gets close to the car. 
+Replacement of the car game objects.
+
