@@ -6,30 +6,35 @@ using UnityEngine.SceneManagement;
 public class CarController : MonoBehaviour
 {
     public Vector3 startPosition;
+    public int deathSFX, hornSFX, driveSFX;
 
+// TODO add the quiet hum of the car
+
+    // possibly put this in the player controller.
     private void OnCollisionEnter(Collision collision)
     {
-        print("collide with car!");
-
         if (collision.gameObject.name.Equals("Player"))
         {
-            // sound effect
-            AudioManager.instance.PlaySFX(2);
+            // sound effect: death
+            AudioManager.instance.PlaySFX(deathSFX);
 
             StartCoroutine("Death");
 
             // respawn player at start of level
             SceneManager.LoadScene("Level_1");
         }
-
-        //if (collision.gameObject.name.Equals("Car_Looper"))
-        //{
-        //    print("Loop to beginning.");
-        //    gameObject.transform.position = startPosition;
-        //}
     }
 
-//TODO:  need to fine tune this...
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.name.Equals("Player"))
+        {
+            // sound effect: horn
+            AudioManager.instance.PlaySFX(hornSFX);
+        }
+    }
+
+    //TODO:  need to fine tune this...
     IEnumerator Death()
     {
         print("Just ran into a car! You are dead!");
