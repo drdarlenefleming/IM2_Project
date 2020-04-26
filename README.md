@@ -14,3 +14,9 @@ Add two directories external to project to store Art and Sound assets.
 Update to car game objects with addition of horn sounds when the player gets close to the car. 
 Replacement of the car game objects.
 
+4/25/20 
+Change spawn area cover:
+1) start speed from 2 to 1.
+2) # of particles from 1000 to 2000.
+3) Double the number of particle objects from 2 on each side to 4.
+
