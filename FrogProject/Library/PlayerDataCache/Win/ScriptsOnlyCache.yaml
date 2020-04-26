@@ -33,6 +33,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.UI.Outline
   sceneClasses:
@@ -1493,5 +1494,5 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/_Scenes/Level_1.unity
   - Assets/_Scenes/Level_2.unity
-  playerPath: C:/Users/darle/Documents/GitHub/IM2/FrogProject/Build/Frog_build_8/Frogger
+  playerPath: C:/Users/darle/Documents/GitHub/IM2/FrogProject/Build/Frog_build_9/Frogger
     Game.exe
