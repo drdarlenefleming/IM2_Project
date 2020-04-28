@@ -28,3 +28,10 @@ Change spawn area cover:
 5) Slow down boat speeds--boatfbx from 3 to 2, boatfbx (1) from 5 to 3, boatfbx (2) from 7 to 5.
 6) Add coral and seaweed (used above water on end edge) game objects to the waterway.
 7) Addition of bushes to the beginning of level.
+
+4/27/2020:
+1) Addition of rubber ducky with sound effects...still need to tweak this.
+2) Addressing the lag of the project build experienced in build 8 & 9.
+
+4/28/20:
+1) Addressing lag...updating to latest Unity including updating packages. Need to test this.
