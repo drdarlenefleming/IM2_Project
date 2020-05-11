@@ -45,3 +45,10 @@ Dev update:
 Create title scene, level ending. LockMouse script disabled on camera for Main Menu...still can look around the scene but no movement. Another WTF day: MainMenu scene was not saving; despite the file>save. Reimport the assets/packages and seem to work. Cross fingers and hope to kick... working now. 
 
 Adding Occulus Go Build.
+
+Builds:
+C:\Users\darle\Documents\GitHub\IM2_Project\FrogProject\Build\Frog_build_Final
+C:\Users\darle\Documents\GitHub\IM2_Project\FrogProject\Build\Frog_build_Final_Occulus_Go
+
+Will add the Occulus_Go version to Google Drive also.
+
