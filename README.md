@@ -44,3 +44,4 @@ Strange behaviors days--windows 10 system update left the main dev machine down 
 Dev update:
 Create title scene, level ending. LockMouse script disabled on camera for Main Menu...still can look around the scene but no movement. Another WTF day: MainMenu scene was not saving; despite the file>save. Reimport the assets/packages and seem to work. Cross fingers and hope to kick... working now. 
 
+Adding Occulus Go Build.
