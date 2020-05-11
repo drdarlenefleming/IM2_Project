@@ -35,3 +35,12 @@ Change spawn area cover:
 
 4/28/20:
 1) Addressing lag...updating to latest Unity including updating packages. Need to test this.
+
+5/9/20:
+Dev update:
+Strange behaviors days--windows 10 system update left the main dev machine down for a couple of days. Was able to move the latest changes to and external drive. This was the one night I didn’t push work to the server. Strangest behavior occurred when I simply did a replacement of the files from the server--the project opened with two editor window instances. A change in one window would occur in the other window as well. So the new change was simply changing the assets directory. Better way to fix the problem. Build will be available in the morning.
+
+5/10/20:
+Dev update:
+Create title scene, level ending. LockMouse script disabled on camera for Main Menu...still can look around the scene but no movement. Another WTF day: MainMenu scene was not saving; despite the file>save. Reimport the assets/packages and seem to work. Cross fingers and hope to kick... working now. 
+
